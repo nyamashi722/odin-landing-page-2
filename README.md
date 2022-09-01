@@ -1,1 +1,1 @@
-# odin-landing-page-2
+This is my second attempt at the TOP landing page project. I use both html and css to create this website.
