@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
     height: 100vh;
     margin: 0;
 }
@@ -26,6 +25,7 @@ header {
     background-color: #1F2937;
     width: 100vw;
     justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -35,22 +35,74 @@ header {
     justify-content: space-between;
 }
 
+.ferret {
+    height: 100px;
+}
+
+.daray {
+    height: 100%;
+}
+
 .title-section {
     display: flex;
     background-color: #1F2937;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.title-container {
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap-reverse;
+}
+
+.title-left {
+    width: 200px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.nature {
+    width: 400px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.forest {
+    width: 100%;
+    flex-grow: 1;
 }
 
 .info-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-boxes {
     display: flex;
 }
 
 .quote-section {
     display: flex;
     background-color: #E5E7EB;
+    flex: 1;
 }
 
 .signup-section {
     display: flex;
+    flex: 1;
 }
 
 .signup-container {
@@ -60,17 +112,7 @@ header {
 footer {
     display: flex;
     background-color: #1F2937;
-}
-
-
-.daray {
-    width: 100px;
-    height: auto
-}
-
-.forest {
-    width: 400px;
-    height: auto;
+    flex: 1;
 }
 
 .house {
